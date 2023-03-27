@@ -1,0 +1,8 @@
+{
+    "name": "Pandora-Addon",
+    "settings": {
+        "Lua.diagnostics.globals": [
+            "pandora"
+        ]
+    }
+}
