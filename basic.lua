@@ -753,3 +753,10 @@ function startFishing(item_id) end
 ---Stop current fishing task.
 ---
 function stopFishing() end
+
+---
+---Add variantlist hooking.
+---
+---@param hook_name string
+---@param callback fun(var: string): boolean?
+function addHook(hook_name, callback) end
